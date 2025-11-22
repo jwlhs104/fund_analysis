@@ -59,6 +59,8 @@
 
 程式自動生成 `monte_carlo_simulation.png`，包含四個分析圖表：
 
+![蒙地卡羅模擬結果](monte_carlo_simulation.png)
+
 1. **模擬路徑圖（左上）**
    - 顯示 100 條隨機模擬路徑
    - 紅色線代表所有模擬的平均路徑
