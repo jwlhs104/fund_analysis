@@ -147,7 +147,7 @@ print("\n正在執行蒙地卡羅模擬...")
 # 蒙地卡羅參數設定
 n_simulations = 10000  # 模擬次數
 n_days = 252  # 模擬天數 (1年交易日)
-initial_nav = df_fund['Fund_NAV'].iloc[-1]  # 使用最新淨值作為起始點
+initial_nav = df_fund['Fund_NAV'].iloc[0]  # 使用最舊淨值作為起始點
 
 # 基於歷史數據計算參數
 daily_return = df_merge['Fund_Ret'].mean()  # 日均報酬率
